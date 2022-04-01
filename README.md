@@ -1,4 +1,4 @@
-#SITE Program Pre-work - Light and Sound Memory Game
+# SITE Program Pre-work - Light and Sound Memory Game
 
 Author: Elijah Opoku-Nyarko
 
@@ -8,9 +8,9 @@ Project Link: https://light-and-sound-memory-game-elijah.glitch.me/
 
 Link to Glitch project: https://glitch.com/edit/#!/light-and-sound-memory-game-elijah
 
-##Required Functionality
+## Required Functionality
 
-###Completed the following required steps:
+### Completed the following required steps:
 
 [X] Game interface has a heading (h1 tag), a line of body text (p tag), and four buttons that match the demo app
 [X] "Start" button toggles between "Start" and "Stop" when clicked.
@@ -20,7 +20,7 @@ Link to Glitch project: https://glitch.com/edit/#!/light-and-sound-memory-game-e
 [X] User wins the game after guessing a complete pattern
 [X] User loses the game after an incorrect guess
 
-###Completed the following optional features:
+### Completed the following optional features:
 
 [X] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
 [X] Buttons use a pitch (frequency) other than the ones in the tutorial
@@ -32,6 +32,6 @@ Link to Glitch project: https://glitch.com/edit/#!/light-and-sound-memory-game-e
 [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
 [X] User has a limited amount of time to enter their guess on each turn
 
-###Implementaed the following additional features:
+### Implementaed the following additional features:
 
 [ ] List anything else that you can get done to improve the app!
