@@ -36,7 +36,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app!
+- [X] User is prompted about the number of attempts left after a failed attempt 
 
 ## Video Walkthrough (GIF)
 
@@ -68,7 +68,10 @@ If you recorded multiple GIFs for all the implemented features, you can add them
    * Also, what is the benefit of having the CSS and Javascript code in different files when they can be written togeter with the HTML in the same file? is it better to do one or the other? It was a bit difficult navigating between different files, but I realised it would be even more difficult if they were in the same file because there would be hundreds of line. Is the length the only issue that could arise, or are there other technical issues?
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+   
+   * If I had a few more hours to work on this project, I would have implemented the feature where the images on the buttons remain hidden until the player clicks on the correct button (then the image is displayed as long as the user is holding down the mouse). I tried to implement this feature, but I ended up making the image to display on when the game is launched (but the start button is not yet pressed). once the start button is pressed, the images disappear. This was not the way I wanted it to work, so I decided to just add the images to the buttons, but leave some space around the images so that the the "light up" of the buttons can be more visible.
+   * Also, I wanted to implement a feature where the same sequence is played again for the user if the user wrongly attempts the sequence and still has more attempts left. This was very hard to achieve because the sequence was randomized. I was only able to start the game allover again when the user fails an attempt. This was not very effective because if I had to keep score, a start all over again will mean that the score will reset to 0.
+   * lastly, as I hinted, I would have loved to implement a feature where the user's score increases whenever a sequence is gotten right.
 
 
 
