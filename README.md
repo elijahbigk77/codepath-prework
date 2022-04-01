@@ -54,9 +54,13 @@ If you recorded multiple GIFs for all the implemented features, you can add them
     * I used a lot of help from https://www.w3schools.com/ in order to fully understand the syntax of HTML, CSS and JavaScript
     * I used some help from https://javascript.info/ in areas where the w3schools failed to explain some of the javascript syntax to my best understandng
     * When I had errors in my code which I did not understand, I got some help from https://stackoverflow.com/
+    * I used https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random to understand how Math.Random works in order to         implement the random sequence
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[YOUR ANSWER HERE]
+
+   * The part of this project which was very challenging to me was setting the countdown timer for the game. It was very difficult for me to figure out how      to rstart the timer whenever the player gets the sequence right. Upon sevral attempts proved futal, I took a nap break and came back to resume work.        after about an hour of try and error, I finally made good progress. The only issue was that, even though the timer restarted after the player gets the      sequence right, the game did not stop when the timer gets to 0. After consulting online sources(listed above), the timer was now up and running just        the way I wanted it to.
+   * Also, It took me a long time to figure out how to get the sequence to be randomized. Initially, I got it to be randomized, but it kept playing the          same random sequence every time. Again, after several hours of getting information from an online source (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random), I finally figured out how the Math.Random function works. Even after understanding the way it works, it still took me a long time to figure out how to implement it in the game.
+   * Lastly, I struggled a lot with adding pictures to the buttons. When tried adding the picture, it either took the place of the button I wanted to add it on, or it would not display at all. w3schools.com was helpful in explaining how to add pictures to buttons. In general, I realized that even though I understood how to do certain things, it was a bit difficult to figure out how to implement it in the project. It was a difficult process, but I felt so accomplished after I worked my way through the struggle.
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
 [YOUR ANSWER HERE]
