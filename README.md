@@ -50,7 +50,10 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[YOUR ANSWER HERE]
+
+    * I used a lot of help from https://www.w3schools.com/ in order to fully understand the syntax of HTML, CSS and JavaScript
+    * I used some help from https://javascript.info/ in areas where the w3schools failed to explain some of the javascript syntax to my best understandng
+    * When I had errors in my code which I did not understand, I got some help from https://stackoverflow.com/
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
 [YOUR ANSWER HERE]
