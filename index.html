@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Hello World!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <h1>L💡ght and S🔊und Mem🤔ry G🎮me</h1>
+
+    <p></p>
+    <p id="p1">
+      <!-- text filled in dynamically, contains rules and high score information -->
+    </p>
+    <div class="slidecontainer">
+      <img
+        src="https://cdn.glitch.com/426e7d0a-f0e2-4207-8ff9-d34e4085a91f%2Fsound-off-icon-40944.png?v=1615183487030"
+        style="width: 20px; height: 20px"
+      />
+      <input
+        id="volumeSlider"
+        type="range"
+        min="1"
+        max="100"
+        value="50"
+        class="slider"
+      />
+    </div>
+    <p id="p2">
+      <!-- text filled in dynamically, records time remaining to guess -->
+    </p>
+
+    <p>
+      <button id="startBtn" onclick="startGame()">Start</button>
+      <button id="stopBtn" class="hidden" onclick="stopGame()">Stop</button>
+    </p>
+
+    <div id="gameButtonArea">
+      <button
+        type="button"
+        id="button1"
+        onclick="guess(1)"
+        onmousedown="startTone(1)"
+        onmouseup="stopTone()"
+      >
+        <img
+          id="image1"
+          src="https://www.boredpanda.com/blog/wp-content/uploads/2014/03/cute-smiling-animals-2.jpg"
+          alt="dog image"
+        />
+      </button>
+      <button
+        type="button"
+        id="button2"
+        onclick="guess(2)"
+        onmousedown="startTone(2)"
+        onmouseup="stopTone()"
+      >
+        <img
+          id="image2"
+          src="https://www.boredpanda.com/blog/wp-content/uploads/2014/03/cute-smiling-animals-3.jpg"
+          alt="seal image"
+        />
+      </button>
+      <button
+        type="button"
+        id="button3"
+        onclick="guess(3)"
+        onmousedown="startTone(3)"
+        onmouseup="stopTone()"
+      >
+        <img
+          id="image3"
+          src="https://www.boredpanda.com/blog/wp-content/uploads/2014/03/cute-smiling-animals-22.jpg"
+          alt="cat image"
+        />
+      </button>
+      <button
+        type="button"
+        id="button4"
+        onclick="guess(4)"
+        onmousedown="startTone(4)"
+        onmouseup="stopTone()"
+      >
+        <img
+          id="image4"
+          src="https://www.boredpanda.com/blog/wp-content/uploads/2014/03/cute-smiling-animals-26.jpg"
+          alt="monkey image"
+        />
+      </button>
+      <button
+        type="button"
+        id="button5"
+        onclick="guess(5)"
+        onmousedown="startTone(5)"
+        onmouseup="stopTone()"
+      >
+        <img
+          id="image5"
+          src="https://www.boredpanda.com/blog/wp-content/uploads/2014/03/cute-smiling-animals-4.jpg"
+          alt="goat image"
+        />
+      </button>
+
+      <button
+        type="button"
+        id="button6"
+        onclick="guess(6)"
+        onmousedown="startTone(6)"
+        onmouseup="stopTone()"
+      >
+        <img
+          id="image6"
+          src="https://www.boredpanda.com/blog/wp-content/uploads/2014/03/cute-smiling-animals-13.jpg"
+          alt="frog image"
+        />
+      </button>
+    </div>
+  </body>
+</html>
