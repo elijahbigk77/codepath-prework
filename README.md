@@ -63,7 +63,9 @@ If you recorded multiple GIFs for all the implemented features, you can add them
    * Lastly, I struggled a lot with adding pictures to the buttons. When tried adding the picture, it either took the place of the button I wanted to add it on, or it would not display at all. w3schools.com was helpful in explaining how to add pictures to buttons. In general, I realized that even though I understood how to do certain things, it was a bit difficult to figure out how to implement it in the project. It was a difficult process, but I felt so accomplished after I worked my way through the struggle.
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+   
+   * While writing my code, I realised that sometimes, the progrma runs normally(or for the most part) when I had an error in the HTML file, but this is not same for the Javascript and sometimes the CSS files. so my question is, are the errors in the HTML files disregarded by the program, or is this just a special feature on Glitch?
+   * Also, what is the benefit of having the CSS and Javascript code in different files when they can be written togeter with the HTML in the same file? is it better to do one or the other? It was a bit difficult navigating between different files, but I realised it would be even more difficult if they were in the same file because there would be hundreds of line. Is the length the only issue that could arise, or are there other technical issues?
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
 [YOUR ANSWER HERE]
