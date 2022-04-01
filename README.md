@@ -5,6 +5,7 @@ Author: Elijah Opoku-Nyarko
 Time spent: 12 hours
 
 Project Link: https://light-and-sound-memory-game-elijah.glitch.me/
+
 Link to Glitch project: https://glitch.com/edit/#!/light-and-sound-memory-game-elijah
 
 ##Required Functionality
